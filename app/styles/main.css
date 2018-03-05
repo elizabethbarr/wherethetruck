@@ -11,11 +11,14 @@ body, html {
 body {
   font-family: 'Bitter', serif;
   font-family: 'Open Sans', sans-serif;
+  padding-bottom: 30px;
 }
 
 .navbar-brand {
   padding-top: 0.1em;
 }
+
+/* index.html */
 
 .hero-container {
     background: url(../images/foodtruckfans.jpg);
@@ -42,7 +45,6 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-
 .hero-content{
   padding-top: 20%;
   color: white;
@@ -56,19 +58,16 @@ h3 {
   padding-top: 0.5%;
 }
 
-hr {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
-}
-
 .btn {
   font-family: 'Open Sans', sans-serif;
 }
 
+.navbar-container {
+  padding: 0 5% 0 5%;
+}
+
 .middle-container {
   background-color: #f8f8f8;
-
 }
 
 .middle-content {
@@ -84,5 +83,34 @@ hr {
   padding: 5% 0 5% 0;
   color: white;
   text-align: center;
-
 }
+
+/* login.html */
+
+.login-container {
+  padding: 10% 10% 0 34%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.form-group {
+  padding-top: 1%;
+}
+
+.login-hed {
+  text-align: center;
+  font-weight: 700;
+}
+
+.login-footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 30px;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  line-height: 0.5;
+  font-size: 0.75em;
+}
+
+/* signup.html */
