@@ -92,10 +92,6 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.form-group {
-  padding-top: 1%;
-}
-
 .login-hed {
   text-align: center;
   font-weight: 700;
@@ -114,3 +110,7 @@ h3 {
 }
 
 /* signup.html */
+
+.signup-container {
+  padding: 10% 10% 0 34%;
+}
