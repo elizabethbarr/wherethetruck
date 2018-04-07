@@ -75,13 +75,18 @@ h3 {
   text-align: center;
 }
 
-.footer-container {
+.lower-container {
   background-color: #38393a;
+  color: #f8f8f8;
+}
+
+.footer-container {
+  background-color: #f8f8f8;
 }
 
 .footer-content {
   padding: 5% 0 5% 0;
-  color: white;
+  color: #38393a;
   text-align: center;
 }
 

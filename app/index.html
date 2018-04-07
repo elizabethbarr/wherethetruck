@@ -26,7 +26,7 @@
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
-  <nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container">
       <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -39,88 +39,111 @@
     </div>
     <div id="navbar" class="collapse navbar-collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Where the Truck</a></li>
+        <li class="active"><a href="#">Home</a></li>
+        <li><a href="/howitworks">How It Works</a></li>
+        <li><a href="/faqs">FAQs</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="/signup">Sign Up</a></li>
+        <li><a href="/login"><strong>Log In</strong></a></li>
       </ul>
     </div>
   </div>
  </nav>
 
-  <div class="vendor-form-container">
+ <div class="hero-container">
+  <div class="row">
+    <div class="col-lg-12">
+      <div class="hero-content">
+        <h1>Where the Truck</h1>
+          <div class="subhead-content">
+            <h2>Make your food truck findable on Amazon's Alexa</h2>
+          <div class="button-content">  
+            <button class="btn btn-default btn-lg"><a href="#signup">Get Started</a></button>
+          </div>  
+          </div>  
+      </div>
+    </div>
+  </div>
+ </div>
+
+  <div class="middle-container">
+    <div class="row">
+    <div class="col-lg-12">
+      <div class="middle-content">
+        <h2>List your location so your customers can ask, "Alexa, Where the Truck?"</h2>
+        <h3>Get your food truck on Alexa so your customers can find you, any day, any time</h3>
+        <span>Listing your food truck or food truck event on Alexa doesn't require the investment of creating a custom skill. Where the Truck makes finding your daily location as easy as asking Alexa.</span>
+        <span>Announcing your whereabouts on Facebook and Instagram is a crapshoot. You can't guarantee where it will show up on your customers' feeds. Listing your location with Where the Truck ensures you customers can find you without searching or scrolling. All they have to do is ask.</span>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="lower-container">
+    <div class="row">
+    <div class="col-lg-12">
+      <div class="lower-content">
+        <h2>List your location so your customers can ask, "Alexa, Where the Truck?"</h2>
+        <h3>Get your food truck on Alexa so your customers can find you, any day, any time</h3>
+        <span>Listing your food truck or food truck event on Alexa doesn't require the investment of creating a custom skill. Where the Truck makes finding your daily location as easy as asking Alexa.</span>
+        <span>Announcing your whereabouts on Facebook and Instagram is a crapshoot. You can't guarantee where it will show up on your customers' feeds. Listing your location with Where the Truck ensures you customers can find you without searching or scrolling. All they have to do is ask.</span>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  <div class="footer-container">
+    <div class="row">
+    <div class="col-lg-12">
+      <div class="footer-content">
+        <p>&copy; 2017-2018 Where the Truck</p>
+        <p>support@wherethetruck.is</p>
+      </div>
+    </div>
+    </div>
+  </div>
+
+  
     
-    <iframe
-      id="JotFormIFrame-80677648684172"
-      onload="window.parent.scrollTo(0,0)"
-      allowtransparency="true"
-      allowfullscreen="true"
-      allow="geolocation; microphone; camera"
-      src="https://form.jotform.com/80677648684172"
-      frameborder="0"
-      style="width: 1px;
-      min-width: 100%;
-      height:539px;
-      border:none;"
-      scrolling="no"
-    >
-    </iframe>
-    <script type="text/javascript">
-      var ifr = document.getElementById("JotFormIFrame-80677648684172");
-      if(window.location.href && window.location.href.indexOf("?") > -1) {
-        var get = window.location.href.substr(window.location.href.indexOf("?") + 1);
-        if(ifr && get.length > 0) {
-          var src = ifr.src;
-          src = src.indexOf("?") > -1 ? src + "&" + get : src  + "?" + get;
-          ifr.src = src;
-        }
-      }
-      window.handleIFrameMessage = function(e) {
-        var args = e.data.split(":");
-        if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
-        if (!iframe) { return; }
-        switch (args[0]) {
-          case "scrollIntoView":
-            iframe.scrollIntoView();
-            break;
-          case "setHeight":
-            iframe.style.height = args[1] + "px";
-            break;
-          case "collapseErrorPage":
-            if (iframe.clientHeight > window.innerHeight) {
-              iframe.style.height = window.innerHeight + "px";
-            }
-            break;
-          case "reloadPage":
-            window.location.reload();
-            break;
-          case "loadScript":
-            var src = args[1];
-            if (args.length > 3) {
-                src = args[1] + ':' + args[2];
-            }
-            var script = document.createElement('script');
-            script.src = src;
-            script.type = 'text/javascript';
-            document.body.appendChild(script);
-            break;
-          case "exitFullscreen":
-            if      (window.document.exitFullscreen)        window.document.exitFullscreen();
-            else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
-            else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
-            else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
-            else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
-            break;
-        }
-        var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
-        if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
-          var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
-          iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
-        }
-      };
-      if (window.addEventListener) {
-        window.addEventListener("message", handleIFrameMessage, false);
-      } else if (window.attachEvent) {
-        window.attachEvent("onmessage", handleIFrameMessage);
-      }
-      </script>  
-  </div>  
+
+    <!-- build:js(.) scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+
+    
+    <!-- build:js(.) scripts/plugins.js -->
+    <script src="/bower_components/bootstrap/js/affix.js"></script>
+    <script src="/bower_components/bootstrap/js/alert.js"></script>
+    <script src="/bower_components/bootstrap/js/dropdown.js"></script>
+    <script src="/bower_components/bootstrap/js/tooltip.js"></script>
+    <script src="/bower_components/bootstrap/js/modal.js"></script>
+    <script src="/bower_components/bootstrap/js/transition.js"></script>
+    <script src="/bower_components/bootstrap/js/button.js"></script>
+    <script src="/bower_components/bootstrap/js/popover.js"></script>
+    <script src="/bower_components/bootstrap/js/carousel.js"></script>
+    <script src="/bower_components/bootstrap/js/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap/js/collapse.js"></script>
+    <script src="/bower_components/bootstrap/js/tab.js"></script>
+    <!-- endbuild -->
+    
+
+    <!-- build:js(.tmp) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+      e.src='https://www.google-analytics.com/analytics.js';
+      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+      ga('create','UA-XXXXX-X');ga('send','pageview');
+    </script>
+  </body>
+</html>  
 
 
