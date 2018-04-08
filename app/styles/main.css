@@ -66,6 +66,7 @@ h3 {
   padding: 0 5% 0 5%;
 }
 
+/* middle container */
 .middle-container {
   background-color: #f8f8f8;
 }
@@ -75,19 +76,53 @@ h3 {
   text-align: center;
 }
 
+/* lower container */
 .lower-container {
   background-color: #38393a;
   color: #f8f8f8;
 }
 
+/* footer */
 .footer-container {
+  padding: 4% 5% 3% 5%;
   background-color: #f8f8f8;
 }
 
 .footer-content {
-  padding: 5% 0 5% 0;
   color: #38393a;
-  text-align: center;
+  font-size: 12px;
+}
+
+.footer-left-top {
+  text-align: left;
+}
+
+.footer-left-middle {
+  padding-top: 2%;
+}
+
+.footer-left-bottom {
+  padding-top: 2%;
+}
+
+.footer-middle-top {
+  padding-left: 10%;
+}
+
+.footer-middle-middle {
+}
+
+.footer-middle-bottom {
+  padding-top: 25%;
+  font-size: 9px;
+}
+
+.footer-right {
+
+}
+
+.icon {
+  padding-left: 3%;
 }
 
 /* login.html */
@@ -119,3 +154,5 @@ h3 {
 .signup-container {
   padding: 10% 10% 0 34%;
 }
+
+
