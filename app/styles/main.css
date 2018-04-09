@@ -14,6 +14,11 @@ body {
   padding-bottom: 30px;
 }
 
+a {
+  color: #ff6600;
+  text-decoration: none;
+}
+
 .navbar-brand {
   padding-top: 0.1em;
 }
@@ -84,45 +89,53 @@ h3 {
 
 /* footer */
 .footer-container {
-  padding: 4% 5% 3% 5%;
+  padding: 4% 8% 2% 8%;
   background-color: #f8f8f8;
 }
 
 .footer-content {
   color: #38393a;
-  font-size: 12px;
 }
 
 .footer-left-top {
-  text-align: left;
 }
 
 .footer-left-middle {
-  padding-top: 2%;
+  padding-top: 4%;
 }
 
 .footer-left-bottom {
-  padding-top: 2%;
+  padding-top: 4%;
 }
 
 .footer-middle-top {
-  padding-left: 10%;
-}
-
-.footer-middle-middle {
+  padding-left: 22%;
 }
 
 .footer-middle-bottom {
-  padding-top: 25%;
+  padding-top: 35%;
   font-size: 9px;
+  text-align: center;
 }
 
-.footer-right {
+.footer-right-one {
+  padding-left: 30%;
+}
 
+.footer-right-two {
+  padding: 4% 0 0 30%;
+}
+
+.footer-right-three {
+  padding: 4% 0 0 30%;
+}
+
+.footer-right-four {
+  padding: 4% 0 0 30%;
 }
 
 .icon {
-  padding-left: 3%;
+  padding-left: 3.5%;
 }
 
 /* login.html */
