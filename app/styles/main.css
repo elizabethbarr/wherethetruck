@@ -14,8 +14,33 @@ body {
   padding-bottom: 30px;
 }
 
-a {
+.orangelink {
   color: #ff6600;
+  text-decoration: none;
+}
+
+.orangelink:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+.orangelink:active {
+  color: #444444;
+  text-decoration: none;
+}
+
+.graylink {
+  color: #999999;
+  text-decoration: none;
+}
+
+.graylink:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+.graylink:active {
+  color: #444444;
   text-decoration: none;
 }
 
@@ -50,7 +75,7 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.hero-content{
+.hero-content {
   padding-top: 20%;
   color: white;
   text-align: center;
@@ -94,7 +119,7 @@ h3 {
 }
 
 .footer-content {
-  color: #38393a;
+  color: #999999;
 }
 
 .footer-left-top {
@@ -109,7 +134,7 @@ h3 {
 }
 
 .footer-middle-top {
-  padding-left: 22%;
+  padding-left: 23%;
 }
 
 .footer-middle-bottom {
@@ -119,19 +144,19 @@ h3 {
 }
 
 .footer-right-one {
-  padding-left: 30%;
+  padding-left: 40%;
 }
 
 .footer-right-two {
-  padding: 4% 0 0 30%;
+  padding: 4% 0 0 40%;
 }
 
 .footer-right-three {
-  padding: 4% 0 0 30%;
+  padding: 4% 0 0 40%;
 }
 
 .footer-right-four {
-  padding: 4% 0 0 30%;
+  padding: 4% 0 0 40%;
 }
 
 .icon {
