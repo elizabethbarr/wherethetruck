@@ -11,11 +11,25 @@ body, html {
 body {
   font-family: 'Bitter', serif;
   font-family: 'Open Sans', sans-serif;
-  padding-bottom: 30px;
+}
+
+.bluelink {
+  color: #31C4F3;
+  text-decoration: none;
+}
+
+.bluelink:hover {
+  color: #444444;
+  text-decoration: none;
+}
+
+.bluelink:active {
+  color: #444444;
+  text-decoration: none;
 }
 
 .orangelink {
-  color: #ff6600;
+  color: #FD5E0F;
   text-decoration: none;
 }
 
@@ -44,8 +58,17 @@ body {
   text-decoration: none;
 }
 
+.graylink:visited {
+  color: #999999;
+  text-decoration: none;
+}
+
 .navbar-brand {
   padding-top: 0.1em;
+}
+
+.navbar-container {
+  padding: 0 5% 0 5%;
 }
 
 /* index.html */
@@ -76,7 +99,7 @@ h3 {
 }
 
 .hero-content {
-  padding-top: 20%;
+  padding-top: 22%;
   color: white;
   text-align: center;
     text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
@@ -92,23 +115,39 @@ h3 {
   font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-container {
-  padding: 0 5% 0 5%;
-}
 
 /* middle container */
 .middle-container {
-  background-color: #f8f8f8;
-}
+  padding: 4% 8% 4% 8%;
+  background-color: #949494;
+ }
 
 .middle-content {
-  padding: 5% 0 5% 0;
+  color: #f8f8f8;
   text-align: center;
+}
+
+.middle-text {
+  padding-top: 0.5%;
+}
+
+.alexa-logo {
+  padding-top: 2%;
+}
+
+.voice-first {
+  color: #31C4F3;
+  font-size: 20px;
+  padding-top: 1%;
 }
 
 /* lower container */
 .lower-container {
-  background-color: #38393a;
+  padding: 4% 8% 4% 8%;
+  background-color: #adadad;
+}
+
+.lower-content {
   color: #f8f8f8;
 }
 
@@ -134,29 +173,29 @@ h3 {
 }
 
 .footer-middle-top {
-  padding-left: 23%;
+  text-align: center;
 }
 
 .footer-middle-bottom {
-  padding-top: 35%;
+  padding-top: 55%;
   font-size: 9px;
   text-align: center;
 }
 
 .footer-right-one {
-  padding-left: 40%;
+  padding-left: 50%;
 }
 
 .footer-right-two {
-  padding: 4% 0 0 40%;
+  padding: 4% 0 0 50%;
 }
 
 .footer-right-three {
-  padding: 4% 0 0 40%;
+  padding: 4% 0 0 50%;
 }
 
 .footer-right-four {
-  padding: 4% 0 0 40%;
+  padding: 4% 0 0 50%;
 }
 
 .icon {
