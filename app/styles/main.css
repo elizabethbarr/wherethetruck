@@ -63,6 +63,11 @@ body {
   text-decoration: none;
 }
 
+.lightest {
+  color: #606060;
+  opacity: 0.5;
+}
+
 .navbar-brand {
   padding-top: 0.1em;
 }
@@ -89,7 +94,7 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 2em;
+  font-size: 3em;
   font-family: 'Bitter', serif;
 }
 
@@ -155,10 +160,15 @@ h3 {
 .footer-container {
   padding: 4% 8% 2% 8%;
   background-color: #f8f8f8;
+  width: 100%;
 }
 
 .footer-content {
   color: #999999;
+}
+
+.notlink {
+  opacity: 0.75;
 }
 
 .footer-left-top {
@@ -180,6 +190,7 @@ h3 {
   padding-top: 55%;
   font-size: 9px;
   text-align: center;
+  opacity: 0.75;
 }
 
 .footer-right-one {
@@ -198,38 +209,87 @@ h3 {
   padding: 4% 0 0 50%;
 }
 
+.footer-right-five {
+  padding: 4% 0 0 50%;
+}
+
 .icon {
-  padding-left: 3.5%;
+  padding-left: 4%;
 }
 
-/* login.html */
+/* faqs.html */
+.faqs-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
 
-.login-container {
+/* help.html */
+.help-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+.help-form {
+  padding-bottom: 5%;
+}
+
+/* howitworks.html */
+.howitworks-container {
   padding: 10% 10% 0 34%;
-  font-family: 'Open Sans', sans-serif;
 }
 
-.login-hed {
-  text-align: center;
-  font-weight: 700;
+/* login.html and signup.html */
+.authenticate-container {
+  padding: 10% 10% 0 34%;
 }
 
-.login-footer {
-  position: absolute;
+/* press.html */
+.press-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+/* privacy.html */
+.privacy-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+/* termsconditions.html */
+.terms-container {
+  padding: 5% 10% 5% 20%;
+  color: #333333;
+}
+
+/* vendorform.html and venueform.html */
+.form-container {
+  padding-top: 20%;
+}
+
+.left-conditions {
+  padding-left: 40%;
+}
+
+.invisible-hed {
+  opacity: 0;
+}
+
+/* alt-footer */
+.alt-footer-container {
+  padding: 2% 8% 2% 8%;
+  background-color: #f8f8f8;
   bottom: 0;
-  left: 0;
-  height: 30px;
+  position: absolute;
   width: 100%;
-  font-family: 'Open Sans', sans-serif;
+}
+
+.alt-footer-middle-middle {
   text-align: center;
-  line-height: 0.5;
-  font-size: 0.75em;
 }
 
-/* signup.html */
-
-.signup-container {
-  padding: 10% 10% 0 34%;
+.alt-footer-middle-bottom {
+  padding-top: 10%;
+  font-size: 9px;
+  text-align: center;
+  opacity: 0.75;
 }
-
-
