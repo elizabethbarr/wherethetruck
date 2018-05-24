@@ -88,13 +88,13 @@ body {
 
 h1 {
   font-weight: 700;
-  font-size: 5em;
+  font-size: 4.5em;
   font-family: 'Bitter', serif;
 }
 
 h2 {
   font-weight: 700;
-  font-size: 3em;
+  font-size: 2em;
   font-family: 'Bitter', serif;
 }
 
@@ -123,17 +123,25 @@ h3 {
 
 /* middle container */
 .middle-container {
-  padding: 4% 8% 4% 8%;
-  background-color: #949494;
+  padding: 4% 25% 2% 25%;
  }
 
 .middle-content {
-  color: #f8f8f8;
+  color: #333333;
   text-align: center;
 }
 
-.middle-text {
-  padding-top: 0.5%;
+.effortless {
+  color: #FD5E0F;
+  text-transform: uppercase;
+}
+
+.list {
+  line-height: 0.5;
+}
+
+.hunger {
+  padding-top: 1%;
 }
 
 .alexa-logo {
@@ -149,10 +157,21 @@ h3 {
 /* lower container */
 .lower-container {
   padding: 4% 8% 4% 8%;
-  background-color: #adadad;
+  
 }
 
 .lower-content {
+  color: #f8f8f8;
+}
+
+/* pricing container */
+.pricing-container {
+  padding: 4% 20% 4% 20%;
+  background-color: #949494;
+  background-color: #adadad;
+}
+
+.pricing-content {
   color: #f8f8f8;
 }
 
@@ -266,11 +285,11 @@ h3 {
   padding-top: 20%;
 }
 
-.left-conditions {
-  padding-left: 40%;
+.invisible-hed {
+  opacity: 0;
 }
 
-.invisible-hed {
+.invisible-bullet {
   opacity: 0;
 }
 
